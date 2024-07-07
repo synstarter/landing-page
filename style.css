@@ -4,8 +4,80 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: roboto, Arial, Helvetica, sans-serif;
+    font-family: "roboto", Arial, Helvetica, sans-serif;
 }
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
 
 /* Global Boxed Layout */
 
@@ -26,17 +98,14 @@
 
 h1 {
     font-size: 48px;
-    font-weight: extra-bold;
     color: #f9faf8;
 }
 h2 {
     font-size: 36px;
-    font-weight: extra-bold;
-    color: #1f2937; 1
+    color: #1f2937;
 }
 h6.textlogo {
     font-size: 24px;
-    font-weight: 700;
     color: #f9faf8;
 }
 
@@ -53,7 +122,6 @@ header, footer {
 
 a.ctacontained, a.ctaoutlined {
     font-size: 16px;
-    font-weight: 700;
     text-decoration: none;
     color: white;
     padding: 8px 24px;
@@ -75,13 +143,11 @@ header {
 nav {
     display: flex;
     height: 56px;
-    /* gap: 48px; */
     /* border: yellow solid 8px; */
 }
 .textlogo {
     flex-grow: 0;
     align-self: center;
-    /* height: 100%; */
     /* border: green solid 8px; */
 }
 .tnavlinks {
@@ -132,7 +198,6 @@ nav {
 }
 .randominfocontent {
     margin: 40px auto;
-    /* padding: 0 40px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,8 +243,6 @@ nav {
 }
 .quotetext {
     font-size: 36px;
-    font-weight: lighter;
-    font-style: italic;
     color: #1f2937;
 }
 .quoteauthor {
@@ -216,7 +279,6 @@ nav {
 }
 h4.whiteh {
     font-size: 21px;
-    font-weight: 700;
 }
 
 /* Footer */
