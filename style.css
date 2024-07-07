@@ -1,0 +1,239 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+/* Global Boxed Layout */
+
+.boxed {
+    width: 960px;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+/* Global Links */
+
+.tnavlinks a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+/* Global Headings Customization */
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937; 1
+}
+h6.textlogo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+/* Global Colors */
+
+header, footer {
+    background-color: #1F2937;
+}
+.ctacontained {
+    background-color: #3882f6;
+}
+
+/* Global Buttons */
+
+a.ctacontained, a.ctaoutlined {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 8px;
+    height: 35px;
+    line-height: 100%;
+}
+a.ctaoutlined {
+    border: white solid 2px;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    /* border: red solid 8px; */
+}
+nav {
+    display: flex;
+    height: 56px;
+    /* gap: 48px; */
+    /* border: yellow solid 8px; */
+}
+.textlogo {
+    flex-grow: 0;
+    align-self: center;
+    /* height: 100%; */
+    /* border: green solid 8px; */
+}
+.tnavlinks {
+    flex-grow: 1;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+    /* border: orange solid 8px; */
+}
+.herocontent {
+    margin: 88px auto 112px auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    /* border: blue solid 8px; */
+}
+.hlbox {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    /* border: white solid 8px; */
+}
+.herosubtitle {
+    color: white;
+    font-size: 18px;
+}
+.ctacontained {
+    max-width: fit-content;
+    margin-top: 8px;
+}
+
+.hrboximg {
+    display: block;
+    width: 475px;
+    height: 225px;
+    object-fit: cover;
+}
+
+/* Features Section */
+
+.randominfo {
+    display: flex;
+    flex-direction: column;
+}
+.randominfocontent {
+    margin: 40px auto;
+    /* padding: 0 40px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.sectiontitle, .featuretext {
+    text-align: center;
+}
+.features {
+    display: flex;
+    gap: 48px;
+}
+.featureitem {
+    max-width: 175px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    /* border: orange solid 8px; */
+}
+.featurebox {
+    width: 175px;
+    height: 175px;
+    border-radius: 16px;
+    border: #3882f6 solid 4px;
+}
+.featuretext {
+    color: grey;
+}
+
+/* Testimonials */
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+.quoteseccontent {
+    display: flex;
+    flex-direction: column;
+    padding: 96px 88px;
+}
+.quotetext {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+.quoteauthor {
+    align-self: flex-end;
+    font-size: 18px;
+}
+
+/* Bottom CTA */
+
+.bottomcta {
+    display: flex;
+    flex-direction: column;
+}
+.bottomctacontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px auto;
+    overflow: hidden;
+}
+.ctabox {
+    width: 100%;
+    padding: 40px 88px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6
+}
+.ctaboxtext  {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+h4.whiteh {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+.footercontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 32px auto;
+    height: fit-content;
+}
+.footertext {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
